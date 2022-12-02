@@ -1,0 +1,26 @@
+:root {
+  --black: #02020a;
+  --softpink: #f5efef;
+  --pink: #feada6;
+  --darkpink: #e08b83;
+  --softblue: #fff1eb;
+  --blue: #ace0f9;
+  --darkblue: #74b4d2;
+  --bgPink: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+  --bgBlue: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: 'Prompt', sans-serif;
+}
+
+.pink {
+  background-image: var(--bgPink);
+}
+
+.blue {
+  background-image: var(--bgBlue);
+}

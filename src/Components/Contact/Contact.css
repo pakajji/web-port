@@ -1,0 +1,12 @@
+.Contact {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-size: 1.2rem;
+}
+
+.Contact > img {
+    height: 20px;
+}

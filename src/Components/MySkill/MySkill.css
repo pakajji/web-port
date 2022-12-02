@@ -1,0 +1,38 @@
+.MySkill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 0 0 64px;
+}
+
+.myPic {
+    height: 400px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.myPic:hover {
+    -webkit-transform: rotateZ(-5deg);
+    -ms-transform: rotateZ(-5deg);
+    transform: rotateZ(-5deg);
+    transition: 0.3s ease;
+}
+
+.profile-column {
+    max-width: 700px;
+    min-width: 200px;
+    font-size: 1.6rem;
+    padding: 0 16px;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.skill > img {
+    max-height: 60px;
+}

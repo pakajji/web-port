@@ -1,0 +1,41 @@
+.Work {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.work-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    text-decoration: none;
+}
+
+.work-block h1 {
+    color: black;
+    font-size: 2rem;
+}
+
+.work-block:hover {
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.pakajji {
+    margin: 0;
+    font-size: 3.6rem;
+    position: absolute;
+    top: 16px;
+    left: 24px;
+    color: white;
+}
+
+.pakajji:hover {
+    cursor: pointer;
+}
