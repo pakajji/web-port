@@ -18,9 +18,12 @@
     gap: 16px;
 }
 
-.project-zone > img {
+.project-zone > a > img {
     height: 250px;
     border-radius: 12px;
+}
+
+.project-zone > a {
     filter: brightness(50%);
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -29,6 +32,6 @@
     transition: all 0.3s ease;
 }
 
-.project-zone > img:hover {
+.project-zone > a:hover {
     filter: brightness(100%);
 }

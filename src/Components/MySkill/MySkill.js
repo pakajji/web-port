@@ -1,5 +1,6 @@
 import './MySkill.css'
 import myPic from '../../img/myPic.jpg'
+import JS from '../../img/JS.png'
 
 const MySkill = () => {
     return(
@@ -9,7 +10,7 @@ const MySkill = () => {
                 <h2>Kanyanat Toonrud</h2>
                 <p>Good day, my name is "Pakkad". I'm switching careers that interested in technology.Both the front end and the back end of software are interesting to me. Even now, I enjoy drawing. Contact me if you're interested.</p>
                 <div className="skill">
-                    <img alt="JavaScript" src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png"/>
+                    <img alt="JavaScript" src={JS}/>
                     <img alt="React" src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"/>
                     <img alt="Node" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"/>
                     <img alt="Express" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"/>
